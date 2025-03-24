@@ -1,0 +1,146 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+li:hover{
+background-color: #dee7ec;
+transition: all 0.5s;
+}
+.header {
+  color: #fff;
+  background-color: #26d0c9;
+  height:100px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+.main{
+  padding:100px 80px;
+  width: 100%;
+
+}
+.main h1{
+  font-size:140px;
+}
+.main span{
+  color:#ff4a4a;
+}
+.main h2{
+  font-size:60px;
+}
+.contents{
+  margin:0 0 100px 40px;
+  width: 100%;
+ 
+}
+.contents h3{
+  padding-bottom:15px;
+  margin-left:40px;
+  margin-bottom:50px;
+  font-size:28px;
+  border-bottom:2px solid #dee7ec;
+}
+.contents-icon p{
+  font-size:24px;
+  padding-top:30px;
+}
+.contents-icon{
+    float: left;
+
+   padding-left:40px;
+}
+.clear{
+    clear: left;
+}
+.form{
+  margin-left:80px;
+  margin-bottom:100px;
+  width: 100%;
+
+  
+}
+.form h4{
+  border-bottom:2px solid #dee7ec;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+  
+}
+.form p{
+  margin-bottom:10px;
+}
+input,textarea{
+  margin-bottom:30px;
+  padding:20px;
+  border:1px solid #dee7ec;
+  width:400px;
+}
+.send input{
+  font-size:18px;
+  background-color:#dee7ec;
+  color:#889eab;
+  border-radius: 4px;
+  
+}
+.send input:hover{
+    background-color: #26d0c9;
+    box-shadow: 0 7px #198581;
+}
+.send input:active{
+box-shadow: none;
+position: relative;
+top: 7px;
+}
+footer{
+  height:200px;
+  padding:40px;
+  color:#fff;
+  background-color:#2f5167;
+  width: 100%;
+
+}
+footer ul{
+  float:right;
+}
+footer h5{
+  font-size:32px;
+}
+footer li{
+  margin-bottom:20px;
+}
+@media(max-width:1024px){
+    .contents-icon{
+        width: 25%;
+    }
+}
+@media(max-width:768px){
+    .contents-icon{
+        width: 50%;
+    }
+}
+@media(max-width:670px){
+    .contents-icon{
+        width: 100%;
+    }
+}
